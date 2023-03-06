@@ -24,6 +24,7 @@ class Solution {
             if(l2 != null){ // adding l2 to our sum & moving l2
                 sum += l2.val;
                 l2 = l2.next;
+		    //new chnges
             }
             sum += carry; // if we have carry then add it into our sum
             carry = sum/10; // if we get carry, then divide it by 10 to get the carry
