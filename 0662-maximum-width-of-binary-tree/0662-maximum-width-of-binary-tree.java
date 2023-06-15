@@ -32,11 +32,11 @@ class Solution {
                 index = pair.getValue();
                 
                 if (node.left != null) {
-                    queue.add(new Pair<>(node.left, 2*index));
+                    queue.add(new Pair<>(node.left, 2*index+1));
                 }
                 
                 if (node.right != null) {
-                    queue.add(new Pair<>(node.right, 2*index+1));
+                    queue.add(new Pair<>(node.right, 2*index+2));
                 }
             }
             
